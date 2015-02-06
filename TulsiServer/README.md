@@ -24,7 +24,7 @@ port = 5005
 ```
 start tulsi server
 ```
-service tulsi star
+service tulsi start
 ```
 Check the server status
 ```
