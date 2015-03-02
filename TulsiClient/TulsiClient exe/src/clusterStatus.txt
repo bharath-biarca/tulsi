@@ -1,0 +1,2 @@
+storage-4-node:s1 Names ,sdb1,sdc1
+storage-4-node:ds1,[],g,g,g
