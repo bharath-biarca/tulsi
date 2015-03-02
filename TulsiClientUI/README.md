@@ -11,7 +11,7 @@ Download and Install the Apache Tomcat software
 ```
 http://tomcat.apache.org/download-70.cgi
 ```
-Now navigate into the webapps folder and copy the TulsiUI.war file
+Now navigate into the webapps folder and copy the TULSI.war file
 
 Now open the following link in web browser
 
