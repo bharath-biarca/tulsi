@@ -39,7 +39,7 @@ log_duration = 10
 Now click the  Main.exe to run the engine 
 
 
-Note : The Tulsi Server has to be up and running before the client 
-       The logstatd parameters has to be enabled with host IP  in swift cluster  to get statsd logs 
+Note : The Tulsi Server has to be up and running before the client. 
+       The logstatd parameters has to be enabled with host IP  in swift cluster  to get statsd logs. 
 		
 
