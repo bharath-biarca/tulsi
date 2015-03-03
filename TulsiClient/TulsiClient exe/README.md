@@ -1,33 +1,45 @@
-# TULSI SERVER
+# TULSI CLIENT
 
 ## Installation Procedure
 
-Run the folowing Command in root previlages
 
-Download tulsi package in swift node
+## Prerequisites 
+python 2.7
 ```
-git clone git clone https://github.com/vedgithub/tulsi.git
+https://www.python.org/download/releases/2.7.6/
 ```
-Go to Tulsi server directory.
+
+Numpy 
 ```
-cd tulsi/TulsiServer
+http://sourceforge.net/projects/numpy/files/NumPy/
 ```
-Execute the tulsi script
+
+Scipy
+
 ```
-sh tulsi.sh
+http://www.scipy.org/install.html
 ```
+
+Download and unzip the TulsiClient exe package
+
+
 Edit the /etc/tulsi/tulsi.conf file
+
+
 ```
 [tulsi]
-host = Tulsi_Clint_IP_Address
+host = <<Ip of the host>>
 port = 5005
+[tulsistatsd]
+host = << IP of the host>>
+port = 8125
+log_duration = 10
+
 ```
-start tulsi server
-```
-service tulsi start
-```
-Check the server status
-```
-service tulsi status
-```
+Now click the  Main.exe to run the engine 
+
+
+Note : The Tulsi Server has to be up and running before the client 
+       The logstatd parameters has to be enabled with host IP  in swift cluster  to get statsd logs 
+		
 
