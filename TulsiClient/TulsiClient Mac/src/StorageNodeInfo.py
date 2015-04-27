@@ -120,7 +120,8 @@ class StorageNodeInfo(object):
                             if n == l:
                                 self.status_drives.append('g')
                                 break
-                            elif(l == (len(self.data['drives']))-1):
+                            #elif(l == (len(self.data['drives']))-1):
+                            elif (self.data['drives'].index(l) == (len(self.data['drives']))-1):
                                 self.status_drives.append('b')
                                 break
                     # Loop dealing with status of services
