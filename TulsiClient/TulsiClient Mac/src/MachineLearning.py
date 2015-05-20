@@ -82,9 +82,9 @@ class MachineLearning(object):
                 # print number_linesr
                 if number_lines < self.no_of_lines:
                     # print "Printing in section number of lines Less than 10"
-                    str_data = self.local_time, 'I: ', self.line_data
-                    self.join_line = ''.join(str_data)
-                    self.write_data_to_file(self.fo,  self.join_line)
+                    #str_data = self.local_time, 'I: ', self.line_data
+                    #self.join_line = ''.join(str_data)
+                    #self.write_data_to_file(self.fo,  self.join_line)
                     str_data = self.local_time, 'I: ', self.line_data
                     self.join_line = ''.join(str_data)
                     self.write_data_to_file(self.log_files, self.join_line)
