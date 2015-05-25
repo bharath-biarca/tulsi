@@ -6,7 +6,7 @@ Run the folowing Command in root previlages
 
 Download tulsi package in swift node
 ```
-git clone git clone https://github.com/vedgithub/tulsi.git
+git clone https://github.com/vedgithub/tulsi.git
 ```
 Go to Tulsi server directory.
 ```
