@@ -1,6 +1,6 @@
 
 mkdir /etc/tulsi
-cd tulsi/
+cd tulsi/TulsiServer/tulsi
 
 cp -v tulsi /etc/init.d/
 cp -v Tulsi.py /etc/tulsi/
