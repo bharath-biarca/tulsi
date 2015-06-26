@@ -1,3 +1,3 @@
 import os
 
-os.system("nohup python src/Tulsi.py &")
+os.system("python src/Tulsi.py ")
